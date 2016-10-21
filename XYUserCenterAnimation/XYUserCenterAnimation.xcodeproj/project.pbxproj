@@ -12,10 +12,10 @@
 		B7B3092E1D941358006E511F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B3092D1D941358006E511F /* ViewController.m */; };
 		B7B309311D941358006E511F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B3092F1D941358006E511F /* Main.storyboard */; };
 		B7B309361D941358006E511F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B309341D941358006E511F /* LaunchScreen.storyboard */; };
-		B7B309411D9413AC006E511F /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B309401D9413AC006E511F /* UserCenterViewController.m */; };
-		B7B309451D9413EF006E511F /* UserCenterHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B309431D9413EF006E511F /* UserCenterHeader.m */; };
-		B7B309461D9413EF006E511F /* UserCenterHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B309441D9413EF006E511F /* UserCenterHeader.xib */; };
 		B7B3094E1D97FD35006E511F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B3094D1D97FD35006E511F /* Assets.xcassets */; };
+		B7E5F2131DB9B7520007F4E2 /* UserCenterHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E5F20F1DB9B7520007F4E2 /* UserCenterHeader.m */; };
+		B7E5F2141DB9B7520007F4E2 /* UserCenterHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E5F2101DB9B7520007F4E2 /* UserCenterHeader.xib */; };
+		B7E5F2151DB9B7520007F4E2 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E5F2121DB9B7520007F4E2 /* UserCenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		B7B309301D941358006E511F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7B309351D941358006E511F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7B309371D941358006E511F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7B3093F1D9413AC006E511F /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
-		B7B309401D9413AC006E511F /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
-		B7B309421D9413EF006E511F /* UserCenterHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterHeader.h; sourceTree = "<group>"; };
-		B7B309431D9413EF006E511F /* UserCenterHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterHeader.m; sourceTree = "<group>"; };
-		B7B309441D9413EF006E511F /* UserCenterHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterHeader.xib; sourceTree = "<group>"; };
 		B7B3094D1D97FD35006E511F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E5F20E1DB9B7520007F4E2 /* UserCenterHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterHeader.h; sourceTree = "<group>"; };
+		B7E5F20F1DB9B7520007F4E2 /* UserCenterHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterHeader.m; sourceTree = "<group>"; };
+		B7E5F2101DB9B7520007F4E2 /* UserCenterHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterHeader.xib; sourceTree = "<group>"; };
+		B7E5F2111DB9B7520007F4E2 /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
+		B7E5F2121DB9B7520007F4E2 /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,19 +66,12 @@
 		B7B309251D941358006E511F /* XYUserCenterAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				B7B3094D1D97FD35006E511F /* Assets.xcassets */,
-				B7B309421D9413EF006E511F /* UserCenterHeader.h */,
-				B7B309431D9413EF006E511F /* UserCenterHeader.m */,
-				B7B309441D9413EF006E511F /* UserCenterHeader.xib */,
-				B7B3093F1D9413AC006E511F /* UserCenterViewController.h */,
-				B7B309401D9413AC006E511F /* UserCenterViewController.m */,
+				B7E5F20D1DB9B7520007F4E2 /* XYUserCenterAnimation */,
 				B7B309291D941358006E511F /* AppDelegate.h */,
 				B7B3092A1D941358006E511F /* AppDelegate.m */,
 				B7B3092C1D941358006E511F /* ViewController.h */,
 				B7B3092D1D941358006E511F /* ViewController.m */,
 				B7B3092F1D941358006E511F /* Main.storyboard */,
-				B7B309341D941358006E511F /* LaunchScreen.storyboard */,
-				B7B309371D941358006E511F /* Info.plist */,
 				B7B309261D941358006E511F /* Supporting Files */,
 			);
 			path = XYUserCenterAnimation;
@@ -87,9 +80,24 @@
 		B7B309261D941358006E511F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B7B309341D941358006E511F /* LaunchScreen.storyboard */,
+				B7B309371D941358006E511F /* Info.plist */,
+				B7B3094D1D97FD35006E511F /* Assets.xcassets */,
 				B7B309271D941358006E511F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E5F20D1DB9B7520007F4E2 /* XYUserCenterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5F20E1DB9B7520007F4E2 /* UserCenterHeader.h */,
+				B7E5F20F1DB9B7520007F4E2 /* UserCenterHeader.m */,
+				B7E5F2101DB9B7520007F4E2 /* UserCenterHeader.xib */,
+				B7E5F2111DB9B7520007F4E2 /* UserCenterViewController.h */,
+				B7E5F2121DB9B7520007F4E2 /* UserCenterViewController.m */,
+			);
+			path = XYUserCenterAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B309361D941358006E511F /* LaunchScreen.storyboard in Resources */,
-				B7B309461D9413EF006E511F /* UserCenterHeader.xib in Resources */,
 				B7B3094E1D97FD35006E511F /* Assets.xcassets in Resources */,
+				B7E5F2141DB9B7520007F4E2 /* UserCenterHeader.xib in Resources */,
 				B7B309311D941358006E511F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,10 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B309411D9413AC006E511F /* UserCenterViewController.m in Sources */,
 				B7B3092E1D941358006E511F /* ViewController.m in Sources */,
 				B7B3092B1D941358006E511F /* AppDelegate.m in Sources */,
-				B7B309451D9413EF006E511F /* UserCenterHeader.m in Sources */,
+				B7E5F2131DB9B7520007F4E2 /* UserCenterHeader.m in Sources */,
+				B7E5F2151DB9B7520007F4E2 /* UserCenterViewController.m in Sources */,
 				B7B309281D941358006E511F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

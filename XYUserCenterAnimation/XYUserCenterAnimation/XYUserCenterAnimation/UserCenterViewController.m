@@ -32,12 +32,17 @@
     return img;
 }
 @end
+#pragma mark - UserCenterViewController
 @interface UserCenterViewController () <UITableViewDelegate,UITableViewDataSource>
+
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UserCenterHeader *headerView;
 @property (nonatomic, strong) UILabel *titleLabel;
+
 @end
-@implementation UserCenterViewController 
+
+@implementation UserCenterViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initViews];
@@ -83,7 +88,7 @@
     if (alpha > 1) {
         alpha = 0.99;
     }
-    UIImage *image = [UIImage imageWithColor:[UIColor colorWithRed:56/255.0 green:58/255.0 blue:65/255.0 alpha:alpha]];
+    UIImage *image = [UIImage imageWithColor:[UIColor colorWithRed:237/255.0 green:70/255.0 blue:50/255.0 alpha:alpha]];
     [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     [self.headerView layoutSubViewWhenScroll:offsetY];
     if (alpha < 0) {
@@ -93,9 +98,11 @@
     }
     self.titleLabel.alpha = alpha;
 }
+#pragma mark - tableView delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 30;
 }
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CELL" ];
     if (cell == nil) {
